@@ -5,6 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import java.util.List;
+
 public class HomePage {
 
     public HomePage(){
@@ -55,6 +57,18 @@ public class HomePage {
 
     @FindBy(xpath = "//span[@class='a-color-state a-text-bold']")
     public WebElement resultLabel;
+
+    @FindBy(css = "i[class='fa-caret-down'")
+    public WebElement lilTriangle;
+
+    @FindBy(xpath = "//a[.='My User']")
+    public WebElement MyUser;
+
+    @FindBy(css = "div[class='control-label']")
+    public List<WebElement> userRightInfo;
+
+    @FindBy(css = "label[class='control-label']")
+    public List<WebElement> userLeftInfo;
 
 
 
