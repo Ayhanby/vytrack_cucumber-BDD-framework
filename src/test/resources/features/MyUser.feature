@@ -3,7 +3,7 @@ Feature: My user information
   Background:
     Given The user is on login page
 
-  @wip
+  @myuser
   Scenario: Quick Launchpad on Dashboard
 
     When  User enters credentials as "storemanager85" and "UserUser123"

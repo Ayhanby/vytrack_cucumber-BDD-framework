@@ -14,7 +14,7 @@ public class Hooks {
     @Before
     public void setUp(){
         System.out.println("I am setting up the class from Hooks class");
-        Driver.getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+       // Driver.getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
     @After

@@ -15,6 +15,7 @@ public class ApplicationConstants {
     public static final String VEHICLE_FEUL_LOGS_HEADER="Vehicle Fuel Logs";
     public static final String VEHICLE_SERVICES_LOGS_HEADER="VehicleServicesLogs";
     public static final String VEHICLE_MODEL_HEADER="Vehicles Model";
+    public static final String ANY_CAR_TITLE="ABC123 Marry Petter Mclean 2016 red employee_car - Car - Entities - System - Car - Entities - System";
 
 
 
