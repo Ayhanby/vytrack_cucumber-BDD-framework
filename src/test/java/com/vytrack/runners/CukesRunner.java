@@ -22,8 +22,8 @@ import org.junit.runner.RunWith;
 
         features = "src/test/resources/features/",
         glue = "com/vytrack/step_definitions/",
-        dryRun=false,
-        tags = "@carInfo"
+        dryRun=true,
+        tags = "@login"
 
 
 )
